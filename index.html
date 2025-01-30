@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumora</title>
+    <link rel="icon" href="images/fav.svg" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap link  -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" id="bootstrap-style">
+
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+
+    <!-- owl-carousel link -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- go to up -->
+    <div class="fixed-icon" id="scrollUp">
+      <a href="#" aria-label="go to page up">
+        <i class="fa-solid fa-chevron-up"></i>
+      </a>
+    </div>
+    
+    <div class="header-hero-wrapper">
+      <header>
+        <nav class="navbar main-nav navbar-expand-lg top-0">
+          <div class="container-fluid">
+            <a class="navbar-brand m-0" href="index.html">
+              <img src="images/logo.svg" alt="Lumora Logo" />
+            </a>
+            <div
+              class="collapse navbar-collapse justify-content-between align-items-center"
+              id="navbarSupportedContent"
+            >
+              <!-- روابط القائمة -->
+              <ul class="navbar-nav gap-lg-5 mb-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="index.html"
+                    aria-label="الذهاب إلى الصفحة الرئيسية"
+                    >الرئيسية</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="about.html"
+                    aria-label="الذهاب إلى صفحة من نحن"
+                    >من نحن</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                  class="nav-link"
+                  href="app-features.html"
+                  aria-label="الذهاب إلى صفحة مميزات التطيبق"
+                  >مميزات التطيبق</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="blogs.html"
+                    aria-label="الذهاب إلى صفحة المدونة"
+                    >المدونة</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="contact.html"
+                    aria-label="الذهاب إلى صفحة تواصل معنا"
+                    >تواصل معنا</a
+                  >
+                </li>
+              </ul>
+              <ul class="d-flex align-items-center gap-lg-4 mb-0">
+                <li>
+                  <a href="#" id="lang" aria-label="تغيير اللغة إلى الإنجليزية">
+                    <span id="lang-text">English</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="register.html" class="main-btn" aria-label="قم بالتسجيل معنا كتاجر">
+                    <span>التسجيل كتاجر</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <!-- hero section -->
+      <section class="heroSec">
+        <div class="container-fluid text-white">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="hero-content">
+                <h1 class="fw-bold">لامور - سهولة التسوق في متناول يدك</h1>
+                <p class="fs-5 my-4 lh-lg">
+                  اكتشف تجربة تسوق فريدة مع تطبيق لامور! احصل على أحدث المنتجات والعروض المميزة بسهولة وراحة من خلال واجهة مصممة خصيصًا لتلبية احتياجاتك. ابدأ رحلتك الآن
+                </p>
+                <div class="apps-btns d-flex align-items-center gap-1">
+                  <a href="#" class="main-btn" aria-label="حمل تطبيق لامورا من خلال ابل ستور">
+                    <img src="images/apple.svg" alt="">
+                    <div>
+                      <span>حمل الان</span>
+                      <h5>Apple store</h5>
+                    </div>
+                  </a>
+                  <a href="#" aria-label="حمل تطبيق لامورا من خلال جوجل بلاي">
+                    <img src="images/GooglePlay.png" alt="">
+                    <div>
+                      <span>حمل الان</span>
+                      <h5>Google play</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <img
+                loading="lazy"
+                src="images/hero_img.png"
+                alt=" "
+                class="hero-image w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- about us -->
+    <section class="about-us py-5">
+      <div class="container-fluid">
+        <div class="row align-items-center gy-3 gx-md-5">
+          <div class="col-md-9 col-lg-6">
+            <img src="images/about.png" class="w-100" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="section-title">
+              <h2 class="secDesc fw-bold secondry fs-2">عن التطبيق</h2>
+            </div>
+            <p class="about-txt my-4 fw-medium cut-text">
+              لامور هو أكثر من مجرد تطبيق تسوق – نحن وجهتك المثالية لتجربة تسوق سهلة وسلسة. نسعى لتقديم منتجات عالية الجودة وخدمات مميزة تلبي جميع احتياجاتك اليومية. رؤيتنا هي توفير الراحة والتميز في كل خطوة، مع التركيز على الابتكار وإرضاء عملائنا. انضم إلينا لتكتشف عالماً جديداً من التسوق الذكي
+            </p>
+            <div class="apps-btns d-flex align-items-center gap-1">
+              <a href="#" class="main-btn" aria-label="حمل تطبيق لامورا من خلال ابل ستور">
+                <img src="images/apple.svg" alt="">
+                <div>
+                  <span>حمل الان</span>
+                  <h5>Apple store</h5>
+                </div>
+              </a>
+              <a href="#" class="main main-outline-btn" aria-label="حمل تطبيق لامورا من خلال جوجل بلاي">
+                <i class="fa-brands fa-google-play fs-3 me-2"></i>
+                <div>
+                  <span class="main">حمل الان</span>
+                  <h5 class="main">Google play</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+    <section class="about-us py-5">
+      <div class="container-fluid">
+        <div class="row align-items-center gy-3 gx-md-5">
+          <div class="col-lg-6">
+            <div class="section-title">
+              <h2 class="secDesc fw-bold secondry fs-2">مميزات التطبيق</h2>
+            </div>
+            <p class="about-txt my-4 fw-medium cut-text">
+              لامور هو أكثر من مجرد تطبيق تسوق – نحن وجهتك المثالية لتجربة تسوق سهلة وسلسة. نسعى لتقديم منتجات عالية الجودة وخدمات مميزة تلبي جميع احتياجاتك اليومية. رؤيتنا هي توفير الراحة والتميز في كل خطوة، مع التركيز على الابتكار وإرضاء عملائنا. انضم إلينا لتكتشف عالماً جديداً من التسوق الذكي
+            </p>
+            <div class="app-features">
+              <ul>
+                <li>
+                  <div class="shape bg-main">
+                    <img src="images/shape.svg" alt="">
+                  </div>
+                  <div>
+                    <h3 class="fw-bold fs-4">تخصيص الروتين الشخصي</h3>
+                    <p class="text-muted fs-6">
+                      يتيح لك التطبيق إنشاء روتين عناية بالبشرة مصمم خصيصًا ليناسب احتياجات بشرتك ونوعها
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="shape bg-main">
+                    <img src="images/shape.svg" alt="">
+                  </div>
+                  <div>
+                    <h3 class="fw-bold fs-4">اقتراح منتجات مثالية</h3>
+                    <p class="text-muted fs-6">
+                      يوفر التطبيق توصيات دقيقة للمنتجات المناسبة لبشرتك بناءً على حالتها وأهدافك الجمالية
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="shape bg-main">
+                    <img src="images/shape.svg" alt="">
+                  </div>
+                  <div>
+                    <h3 class="fw-bold fs-4">متابعة وتحليل البشرة</h3>
+                    <p class="text-muted fs-6">
+                      يتابع التطبيق تقدم حالتك الجلدية ويقدم تحليلات ونصائح لتحسين روتينك بشكل مستمر
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-9 col-lg-6">
+            <img src="images/features.png" class="w-100" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="blogs py-5">
+      <div class="container-fluid">
+        <div class="section-title mb-4">
+          <h2 class="secDesc fw-bold secondry text-center fs-2">المدونة</h2>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
+          <div class="col">
+            <div class="card">
+              <!-- blog link -->
+              <a href="blog-details.html" aria-label="الانتقال الى مقال بعنوان اسم المقال" class="link"></a>
+              <!-- blog img -->
+              <div class="blog-img">
+                <img src="images/skincare.png" class="card-img-top" alt="blog name">
+              </div>
+              <!-- blog info -->
+              <div class="card-body px-0">
+                <span class="secondry fw-bold">5 سبتمبر 2022</span>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="blog-name cut-text card-title fw-semibold fs-4">
+                    أفضل طريقة لاستخدام تطبيق العناية بالبشرة
+                  </p>
+                </div>
+                <p class="blog-description cut-text card-text text-muted">
+                  تعرفي على كيفية تحقيق أقصى استفادة من تطبيق العناية بالبشرة. خطوات بسيطة لتخصيص روتينك اليومي ومتابعة تقدمك نحو بشرة صحية ونضرة
+                </p>
+                <a href="blog-details.html" aria-label="الانتقال الى مقال بعنوان اسم المقال" class="more main fs-5">المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <!-- blog link -->
+              <a href="blog-details.html" aria-label="الانتقال الى مقال بعنوان اسم المقال" class="link"></a>
+              <!-- blog img -->
+              <div class="blog-img">
+                <img src="images/skincare.png" class="card-img-top" alt="blog name">
+              </div>
+              <!-- blog info -->
+              <div class="card-body px-0">
+                <span class="secondry fw-bold">5 سبتمبر 2022</span>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="blog-name cut-text card-title fw-semibold fs-4">
+                    أفضل طريقة لاستخدام تطبيق العناية بالبشرة
+                  </p>
+                </div>
+                <p class="blog-description cut-text card-text text-muted">
+                  تعرفي على كيفية تحقيق أقصى استفادة من تطبيق العناية بالبشرة. خطوات بسيطة لتخصيص روتينك اليومي ومتابعة تقدمك نحو بشرة صحية ونضرة
+                </p>
+                <a href="blog-details.html" aria-label="الانتقال الى مقال بعنوان اسم المقال" class="more main fs-5">المزيد</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <!-- blog link -->
+              <a href="blog-details.html" aria-label="الانتقال الى مقال بعنوان اسم المقال" class="link"></a>
+              <!-- blog img -->
+              <div class="blog-img">
+                <img src="images/skincare.png" class="card-img-top" alt="blog name">
+              </div>
+              <!-- blog info -->
+              <div class="card-body px-0">
+                <span class="secondry fw-bold">5 سبتمبر 2022</span>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="blog-name cut-text card-title fw-semibold fs-4">
+                    أفضل طريقة لاستخدام تطبيق العناية بالبشرة
+                  </p>
+                </div>
+                <p class="blog-description cut-text card-text text-muted">
+                  تعرفي على كيفية تحقيق أقصى استفادة من تطبيق العناية بالبشرة. خطوات بسيطة لتخصيص روتينك اليومي ومتابعة تقدمك نحو بشرة صحية ونضرة
+                </p>
+                <a href="blog-details.html" aria-label="الانتقال الى مقال بعنوان اسم المقال" class="more main fs-5">المزيد</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactUs py-5">
+      <div class="container-fluid">
+        <!-- contact form -->
+        <div class="contact-form bg-white shadow p-5">
+          <div class="text-center mb-4">
+            <h5 class="fw-bold main text-center fs-3">تسجيل كصاحب متجر</h5>
+            <p class="text-muted mt-3">
+              نحن هنا لخدمتك! تواصل معنا لأي استفسار أو مساعدة، فريقنا جاهز لمساعدتك في أي وقت
+            </p>
+          </div>
+          <form action="">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInputUserName"
+                    placeholder="الاسم"
+                    required
+                  />
+                  <label for="floatingInputUserName">الاسم</label>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInputaddress"
+                    placeholder="عنوان الشحن"
+                    required
+                  />
+                  <label for="floatingInputaddress">عنوان الشحن</label>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInputCompanyName"
+                    placeholder="اسم العلامة التجارية"
+                    required
+                  />
+                  <label for="floatingInputCompanyName">اسم العلامة التجارية</label>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                    type="file"
+                    class="form-control"
+                    id="floatingTax"
+                    placeholder="البطاقة الضريبية"
+                    required
+                  />
+                  <label for="floatingTax">البطاقة الضريبية</label>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="floatingLincesNumber"
+                    placeholder="أرقام تراخيص المنتجات"
+                    required
+                  />
+                  <label for="floatingLincesNumber">أرقام تراخيص المنتجات</label>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                    type="file"
+                    class="form-control"
+                    id="floatingLinces"
+                    placeholder="صور التراخيص"
+                    required
+                  />
+                  <label for="floatingLinces">صور التراخيص</label>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="floatingUserBank"
+                    placeholder="الحساب البنكي"
+                    required
+                  />
+                  <label for="floatingUserBank">الحساب البنكي</label>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="floatingUserVodCash"
+                    placeholder="رقم فودافون كاش"
+                    required
+                  />
+                  <label for="floatingUserVodCash">رقم فودافون كاش</label>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingUserPhone"
+                    placeholder="رقم الهاتف"
+                    required
+                  />
+                  <label for="floatingUserPhone">رقم الهاتف</label>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <input
+                  type="email"
+                    class="form-control"
+                    id="floatingUserEmail"
+                    placeholder="البريد الإلكتروني"
+                    required
+                    />
+                  <label for="floatingUserEmail">البريد الإلكتروني</label>
+                </div>
+              </div>
+            </div>
+            <!-- ارسال -->
+            <button
+              type="submit"
+              class="btn main-btn mt-4 mx-auto px-5 py-2"
+            >
+              ارسال
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+      <!-- روابط الفوتر -->
+      <div class="footer-links">
+        <div class="container-fluid d-flex flex-column gap-4">
+          <div class="footer-images">
+            <img src="images/logo.svg" alt="شعار الشركة" class="img-fluid" />
+          </div>
+          <nav class="navbarnavbar-expand-lg top-0">
+            <ul class="d-flex gap-lg-5 justify-content-center mb-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="index.html"
+                  aria-label="الذهاب إلى الصفحة الرئيسية"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="about.html"
+                  aria-label="الذهاب إلى صفحة من نحن"
+                  >من نحن</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                class="nav-link"
+                href="app-features.html"
+                aria-label="الذهاب إلى صفحة مميزات التطيبق"
+                >مميزات التطيبق</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="blogs.html"
+                  aria-label="الذهاب إلى صفحة المدونة"
+                  >المدونة</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="contact.html"
+                  aria-label="الذهاب إلى صفحة تواصل معنا"
+                  >تواصل معنا</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="register.html"
+                  aria-label="الذهاب إلى صفحة طلب تسجيل كتاجر"
+                  >طلب تسجيل كتاجر</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="apps-btns d-flex align-items-center justify-content-center gap-1">
+            <a href="#" class="main-btn" aria-label="حمل تطبيق لامورا من خلال ابل ستور">
+              <img src="images/apple.svg" alt="">
+              <div>
+                <span>حمل الان</span>
+                <h5>Apple store</h5>
+              </div>
+            </a>
+            <a href="#" aria-label="حمل تطبيق لامورا من خلال جوجل بلاي">
+              <img src="images/GooglePlay.png" alt="">
+              <div>
+                <span>حمل الان</span>
+                <h5>Google play</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- الفوتر الفرعي -->
+      <div class="sub-footer py-2">
+        <p class="text-center mb-0">
+          <a href="https://smartvision4p.com" target="_blank" class="d-flex align-items-center gap-2 justify-content-center text-white text-decoration-none" aria-label="رابط إلى موقع شركة سمارت فيجن">
+            <span>تصميم وبرمجة شركة سمارت فيجن للبرمجيات</span>
+            <img src="images/smart-logo.svg" alt="شعار سمارت فيجن">
+          </a>
+        </p>
+      </div>
+    </footer>
+    
+    <!-- jQuery script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!-- owl-carousel script -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- bootstrap script -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
