@@ -68,7 +68,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                  class="nav-link"
+                  class="nav-link active"
                   href="app-features.html"
                   aria-label="الذهاب إلى صفحة مميزات التطيبق"
                   >مميزات التطيبق</a
@@ -84,7 +84,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link active"
+                    class="nav-link"
                     href="contact.html"
                     aria-label="الذهاب إلى صفحة تواصل معنا"
                     >تواصل معنا</a
@@ -125,124 +125,68 @@
           <div class="d-flex align-items-center breadcrumb">
             <a href="index.html" class="fw-semibold fs-5"> الرئيسية</a>
             <i class="fa-solid fa-angles-left mx-2 text-white"></i>
-            <h2 class="fw-semibold text-white fs-5 mb-0">تواصل معنا</h2>
+            <h2 class="fw-semibold text-white fs-5 mb-0">مميزات التطيبق</h2>
           </div>
         </div>
       </section>
     </div>
 
-    <!-- contact us  -->
-    <section class="contactUs py-5">
-      <div class="container-fluid">
-        <div class="row align-items-center gy-3">
-          <!-- contact form -->
-          <div class="col-md-7 col-lg-8">
-            <div class="contact-form py-4 px-4">
-              <h5 class="fw-bold fs-3">تواصل معنا</h5>
-              <p class="text-muted my-3">
-                نحن هنا لمساعدتك! إذا كان لديك أي استفسارات أو تحتاج إلى دعم، لا
-                تتردد في التواصل معنا عبر النموذج أدناه. يمكنك أيضًا الاتصال بنا
-                عبر الهاتف أو البريد الإلكتروني. فريقنا جاهز للإجابة على جميع
-                أسئلتك وتقديم المساعدة التي تحتاجها
+    <!-- features -->
+    <section class="about-us py-5">
+        <div class="container-fluid">
+          <div class="row align-items-center gy-3 gx-md-5">
+            <div class="col-lg-6">
+              <div class="section-title">
+                <h2 class="secTitle fw-bold secondry fs-2">مميزات التطبيق</h2>
+              </div>
+              <p class="about-txt my-4 fw-medium">
+                لامور هو أكثر من مجرد تطبيق تسوق، فهو عالم كامل من الراحة والسهولة في كل عملية شراء تقوم بها. نحن نقدم لك تجربة تسوق مبتكرة تجمع بين التنوع والجودة العالية، حيث تجد كل ما تحتاجه وأكثر في مكان واحد. نحن ندرك أن احتياجاتك اليومية تستحق الأفضل، لذلك نحرص على أن نقدم لك مجموعة واسعة من المنتجات التي تغطي جميع جوانب حياتك اليومية، من الإلكترونيات إلى الملابس، من الأدوات المنزلية إلى مستحضرات التجميل، وكل ما يمكن أن يساعد في تسهيل حياتك نحن في لامور نفهم أن تسوقك يجب أن يكون أكثر من مجرد شراء منتجات؛ يجب أن يكون تجربة ممتعة وسهلة. لذلك، نركز على توفير واجهة مستخدم مريحة وسهلة التنقل تتيح لك الوصول إلى كل ما تبحث عنه في ثوانٍ معدودة. سواء كنت تبحث عن منتج معين أو ترغب في استكشاف خيارات جديدة، نحن نقدم لك تجربة تسوق لا تضاهى.
               </p>
-              <form action="">
-                <div class="row gy-3 align-items-center">
-                  <div class="col-lg-6">
-                    <div class="form-floating">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="floatingInputUserName"
-                        placeholder="الاسم"
-                        required
-                      />
-                      <label for="floatingInputUserName">الاسم</label>
+              <div class="app-features">
+                <ul>
+                  <li>
+                    <div class="shape bg-main">
+                      <img src="images/shape.svg" alt="">
                     </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="form-floating">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="floatingUserEmail"
-                        placeholder="البريد الإلكتروني"
-                        required
-                      />
-                      <label for="floatingUserEmail">البريد الإلكتروني</label>
+                    <div>
+                      <h3 class="fw-bold fs-4">تخصيص الروتين الشخصي</h3>
+                      <p class="text-muted fs-6">
+                        يتيح لك التطبيق إنشاء روتين عناية بالبشرة مصمم خصيصًا ليناسب احتياجات بشرتك ونوعها
+                      </p>
                     </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-floating">
-                      <textarea
-                        class="form-control"
-                        style="height: 150px"
-                        id="floatingContactText"
-                        placeholder="اكتب رسالتك هنا"
-                        required
-                      ></textarea>
-                      <label for="floatingContactText">الرسالة</label>
+                  </li>
+                  <li>
+                    <div class="shape bg-main">
+                      <img src="images/shape.svg" alt="">
                     </div>
-                  </div>
-                </div>
-                <!-- ارسال -->
-                <button
-                  type="submit"
-                  class="btn main-btn mt-3 px-5 py-2"
-                >
-                  ارسال
-                </button>
-              </form>
-            </div>
-          </div>
-          <!-- contact data -->
-          <div class="col-12 col-md-5 col-lg-4">
-            <div class="contact-data bg-main">
-              <div class="contact-info pb-4">
-                <ul class="d-flex flex-column gap-4">
-                  <li>
-                    <i class="bi bi-envelope"></i>
-                    <a href="mailto:Admin@domain.com">Admin@domain.com</a>
+                    <div>
+                      <h3 class="fw-bold fs-4">اقتراح منتجات مثالية</h3>
+                      <p class="text-muted fs-6">
+                        يوفر التطبيق توصيات دقيقة للمنتجات المناسبة لبشرتك بناءً على حالتها وأهدافك الجمالية
+                      </p>
+                    </div>
                   </li>
-
                   <li>
-                    <i class="bi bi-telephone-outbound"></i>
-                    <a href="tel:966 5326 3256355">966 5326 3256355</a>
-                  </li>
-
-                  <li>
-                    <i class="bi bi-telephone-outbound"></i>
-                    <a href="tel:966 5326 3256355">966 5326 3256355</a>
-                  </li>
-
-                  <li>
-                    <i class="bi bi-geo-alt"></i>
-                    <a href="">العنوان يكتب هنا</a>
+                    <div class="shape bg-main">
+                      <img src="images/shape.svg" alt="">
+                    </div>
+                    <div>
+                      <h3 class="fw-bold fs-4">متابعة وتحليل البشرة</h3>
+                      <p class="text-muted fs-6">
+                        يتابع التطبيق تقدم حالتك الجلدية ويقدم تحليلات ونصائح لتحسين روتينك بشكل مستمر
+                      </p>
+                    </div>
                   </li>
                 </ul>
               </div>
-              <!-- وسائل التواصل الاجتماعي -->
-              <div class="followUs">
-                <p class="fw-semibold fs-4 text-white mb-4">تابعنا</p>
-              </div>
-              <div class="social d-flex gap-3">
-                <a href="#" target="_blank" aria-label="رابط إلى تويتر">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-                <a href="#" target="_blank" aria-label="رابط إلى فيسبوك">
-                  <i class="fa-brands fa-facebook-f"></i>
-                </a>
-                <a href="#" target="_blank" aria-label="رابط إلى لينكد إن">
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a href="#" target="_blank" aria-label="رابط إلى سناب شات">
-                  <i class="fa-brands fa-snapchat"></i>
-                </a>
-              </div>
+            </div>
+            <div class="col-md-9 col-lg-6">
+              <img src="images/features.png" class="w-100" alt="">
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    
 
     <!-- footer section -->
     <footer>
@@ -272,7 +216,7 @@
               </li>
               <li class="nav-item">
                 <a
-                class="nav-link"
+                class="nav-link active"
                 href="app-features.html"
                 aria-label="الذهاب إلى صفحة مميزات التطيبق"
                 >مميزات التطيبق</a
@@ -288,7 +232,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link"
                   href="contact.html"
                   aria-label="الذهاب إلى صفحة تواصل معنا"
                   >تواصل معنا</a

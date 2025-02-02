@@ -37,7 +37,7 @@
       </a>
     </div>
     
-    <div class="header-hero-wrapper">
+    <div class="header-hero-wrapper home">
       <header>
         <nav class="navbar main-nav navbar-expand-lg top-0">
           <div class="container-fluid">
@@ -122,8 +122,8 @@
       <!-- hero section -->
       <section class="heroSec">
         <div class="container-fluid text-white">
-          <div class="row">
-            <div class="col-md-6">
+          <div class="row justify-content-lg-start justify-content-end">
+            <div class="col-lg-6">
               <div class="hero-content">
                 <h1 class="fw-bold">لامور - سهولة التسوق في متناول يدك</h1>
                 <p class="fs-5 my-4 lh-lg">
@@ -147,7 +147,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-lg-6 col-md-8">
               <img
                 loading="lazy"
                 src="images/hero_img.png"
@@ -169,7 +169,7 @@
           </div>
           <div class="col-lg-6">
             <div class="section-title">
-              <h2 class="secDesc fw-bold secondry fs-2">عن التطبيق</h2>
+              <h2 class="secTitle fw-bold secondry fs-2">عن التطبيق</h2>
             </div>
             <p class="about-txt my-4 fw-medium cut-text">
               لامور هو أكثر من مجرد تطبيق تسوق – نحن وجهتك المثالية لتجربة تسوق سهلة وسلسة. نسعى لتقديم منتجات عالية الجودة وخدمات مميزة تلبي جميع احتياجاتك اليومية. رؤيتنا هي توفير الراحة والتميز في كل خطوة، مع التركيز على الابتكار وإرضاء عملائنا. انضم إلينا لتكتشف عالماً جديداً من التسوق الذكي
@@ -195,13 +195,33 @@
       </div>
     </section>
 
+    <!-- brands -->
+    <section class="brands py-5">
+      <div class="container-fluid">
+        <div class="section-title">
+          <h2 class="secTitle fw-bold secondry text-center fs-2 mb-5">العلامات التجارية</h2>
+        </div>
+      </div>
+      <div class="owl-carousel">
+        <div class="brand">
+          <img src="images/capixy.webp" alt="">
+        </div>
+        <div class="brand">
+          <img src="images/logo-design.avif" alt="">
+        </div>
+        <div class="brand">
+          <img src="images/Eva-Care.png" alt="">
+        </div>
+      </div>
+    </section>
+
     <!-- features -->
     <section class="about-us py-5">
       <div class="container-fluid">
         <div class="row align-items-center gy-3 gx-md-5">
           <div class="col-lg-6">
             <div class="section-title">
-              <h2 class="secDesc fw-bold secondry fs-2">مميزات التطبيق</h2>
+              <h2 class="secTitle fw-bold secondry fs-2">مميزات التطبيق</h2>
             </div>
             <p class="about-txt my-4 fw-medium cut-text">
               لامور هو أكثر من مجرد تطبيق تسوق – نحن وجهتك المثالية لتجربة تسوق سهلة وسلسة. نسعى لتقديم منتجات عالية الجودة وخدمات مميزة تلبي جميع احتياجاتك اليومية. رؤيتنا هي توفير الراحة والتميز في كل خطوة، مع التركيز على الابتكار وإرضاء عملائنا. انضم إلينا لتكتشف عالماً جديداً من التسوق الذكي
@@ -251,11 +271,52 @@
       </div>
     </section>
 
+    <!-- screens -->
+    <section class="screens py-5">
+      <div class="container-fluid">
+        <div class="section-title">
+          <h2 class="secTitle fw-bold text-white fs-2 mt-3">صفحات التطبيق</h2>
+        </div>
+      </div>
+      <div class="owl-carousel">
+        <div class="screen">
+          <img src="images/main.png" alt="">
+        </div>
+        <div class="screen">
+          <img src="images/Cart.png" alt="">
+        </div>
+        <div class="screen">
+          <img src="images/orders.png" alt="">
+        </div>
+        <div class="screen">
+          <img src="images/Filter.png" alt="">
+        </div>
+        <div class="screen">
+          <img src="images/product.png" alt="">
+        </div>
+        <div class="screen">
+          <img src="images/main.png" alt="">
+        </div>
+        <div class="screen">
+          <img src="images/Cart.png" alt="">
+        </div>
+        <div class="screen">
+          <img src="images/orders.png" alt="">
+        </div>
+        <div class="screen">
+          <img src="images/Filter.png" alt="">
+        </div>
+        <div class="screen">
+          <img src="images/product.png" alt="">
+        </div>
+      </div>
+    </section>
 
+    <!-- blogs -->
     <section class="blogs py-5">
       <div class="container-fluid">
         <div class="section-title mb-4">
-          <h2 class="secDesc fw-bold secondry text-center fs-2">المدونة</h2>
+          <h2 class="secTitle fw-bold secondry text-center fs-2">المدونة</h2>
         </div>
         <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
           <div class="col">
@@ -331,10 +392,11 @@
       </div>
     </section>
 
+    <!-- register -->
     <section class="contactUs py-5">
       <div class="container-fluid">
         <!-- contact form -->
-        <div class="contact-form bg-white shadow p-5">
+        <div class="contact-form bg-white shadow p-4 p-md-5">
           <div class="text-center mb-4">
             <h5 class="fw-bold main text-center fs-3">تسجيل كصاحب متجر</h5>
             <p class="text-muted mt-3">
@@ -375,20 +437,28 @@
                     id="floatingInputCompanyName"
                     placeholder="اسم العلامة التجارية"
                     required
-                  />
-                  <label for="floatingInputCompanyName">اسم العلامة التجارية</label>
+                    />
+                    <label for="floatingInputCompanyName">اسم العلامة التجارية</label>
+                  </div>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="form-floating">
-                  <input
-                    type="file"
-                    class="form-control"
-                    id="floatingTax"
-                    placeholder="البطاقة الضريبية"
-                    required
-                  />
-                  <label for="floatingTax">البطاقة الضريبية</label>
+                <div class="col-lg-6">
+                  <div class="form-floating">
+                    <div class="file-input form-control">
+                      <input
+                      type="file"
+                      accept="image/*, .pdf, .doc, .docx, .xls, .xlsx,.txt"
+                      class="form-control"
+                      id="floatingTax"
+                      placeholder="اسم العلامة التجارية"
+                      required
+                    />
+                    <span class="label" data-js-label="">قم بتحميل صورة البطاقة الضريبية الخاصة بك
+                    </span>
+                  </div>
+                  <label for="floatingTax">
+                    <i class="bi bi-paperclip"></i>
+                    البطاقة الضريبية
+                  </label>
                 </div>
               </div>
               <div class="col-lg-6">
@@ -405,14 +475,20 @@
               </div>
               <div class="col-lg-6">
                 <div class="form-floating">
-                  <input
-                    type="file"
-                    class="form-control"
-                    id="floatingLinces"
-                    placeholder="صور التراخيص"
-                    required
-                  />
-                  <label for="floatingLinces">صور التراخيص</label>
+                  <div class="file-input form-control">
+                    <input
+                      type="file"
+                      accept="image/*, .pdf, .doc, .docx, .xls, .xlsx,.txt"
+                      class="form-control"
+                      id="floatingLinces"
+                      placeholder="صور التراخيص"
+                      multiple
+                      required
+                    />
+                    <span class="label" data-js-label="">قم بتحميل صور التراخيص الخاصة بك
+                    </span>
+                  </div>
+                  <label for="floatingLinces"><i class="bi bi-paperclip"></i> صور التراخيص</label>
                 </div>
               </div>
               <div class="col-lg-6">
@@ -485,7 +561,7 @@
             <img src="images/logo.svg" alt="شعار الشركة" class="img-fluid" />
           </div>
           <nav class="navbarnavbar-expand-lg top-0">
-            <ul class="d-flex gap-lg-5 justify-content-center mb-0">
+            <ul class="d-flex gap-lg-5 flex-wrap gap-4 justify-content-center mb-0">
               <li class="nav-item">
                 <a
                   class="nav-link active"
