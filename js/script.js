@@ -1,8 +1,3 @@
-// $('.owl-carousel').removeClass('owl-rtl')
-// $('html').attr('dir', 'ltr');
-// $('html').attr('lang', 'en');
-// $('link[href="css/bootstrap.rtl.min.css"]').attr('href', 'css/bootstrap.min.css');
-
 // تحديد لغة الموقع
 var bodyDir = $("body").css("direction");
 console.log(bodyDir);
